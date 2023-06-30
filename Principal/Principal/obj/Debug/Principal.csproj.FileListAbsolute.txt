@@ -1,0 +1,15 @@
+D:\repositorios_git\trabalho_menu\Principal\Principal\bin\Debug\Principal.exe.config
+D:\repositorios_git\trabalho_menu\Principal\Principal\bin\Debug\Principal.exe
+D:\repositorios_git\trabalho_menu\Principal\Principal\bin\Debug\Principal.pdb
+D:\repositorios_git\trabalho_menu\Principal\Principal\obj\Debug\Principal.csproj.AssemblyReference.cache
+D:\repositorios_git\trabalho_menu\Principal\Principal\obj\Debug\Principal.csproj.SuggestedBindingRedirects.cache
+D:\repositorios_git\trabalho_menu\Principal\Principal\obj\Debug\Principal.Exercicio1.resources
+D:\repositorios_git\trabalho_menu\Principal\Principal\obj\Debug\Principal.Exercicio2.resources
+D:\repositorios_git\trabalho_menu\Principal\Principal\obj\Debug\Principal.Exercicio3.resources
+D:\repositorios_git\trabalho_menu\Principal\Principal\obj\Debug\Principal.Exercicio4.resources
+D:\repositorios_git\trabalho_menu\Principal\Principal\obj\Debug\Principal.Principal.resources
+D:\repositorios_git\trabalho_menu\Principal\Principal\obj\Debug\Principal.Properties.Resources.resources
+D:\repositorios_git\trabalho_menu\Principal\Principal\obj\Debug\Principal.csproj.GenerateResource.cache
+D:\repositorios_git\trabalho_menu\Principal\Principal\obj\Debug\Principal.csproj.CoreCompileInputs.cache
+D:\repositorios_git\trabalho_menu\Principal\Principal\obj\Debug\Principal.exe
+D:\repositorios_git\trabalho_menu\Principal\Principal\obj\Debug\Principal.pdb
