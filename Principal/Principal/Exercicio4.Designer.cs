@@ -38,7 +38,7 @@
             this.cbMaracuja = new System.Windows.Forms.CheckBox();
             this.cbKiwi = new System.Windows.Forms.CheckBox();
             this.btnTotal = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
+            this.lblTotal = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -139,23 +139,24 @@
             this.btnTotal.TabIndex = 9;
             this.btnTotal.Text = "CALCULAR TOTAL";
             this.btnTotal.UseVisualStyleBackColor = true;
+            this.btnTotal.Click += new System.EventHandler(this.btnTotal_Click);
             // 
-            // label2
+            // lblTotal
             // 
-            this.label2.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(316, 315);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(164, 32);
-            this.label2.TabIndex = 10;
-            this.label2.Text = "    R$ 0,00";
+            this.lblTotal.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.lblTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotal.Location = new System.Drawing.Point(316, 315);
+            this.lblTotal.Name = "lblTotal";
+            this.lblTotal.Size = new System.Drawing.Size(164, 32);
+            this.lblTotal.TabIndex = 10;
+            this.lblTotal.Text = "    R$ 0,00";
             // 
             // Exercicio4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.lblTotal);
             this.Controls.Add(this.btnTotal);
             this.Controls.Add(this.cbKiwi);
             this.Controls.Add(this.cbMaracuja);
@@ -187,6 +188,6 @@
         private System.Windows.Forms.CheckBox cbMaracuja;
         private System.Windows.Forms.CheckBox cbKiwi;
         private System.Windows.Forms.Button btnTotal;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lblTotal;
     }
 }

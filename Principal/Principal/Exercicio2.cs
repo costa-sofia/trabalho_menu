@@ -19,7 +19,7 @@ namespace Principal
 
         private void txtTexto_KeyUp(object sender, KeyEventArgs e)
         {
-
+            lblCaixaAlta.Text = txtTexto.Text.ToUpper();
         }
     }
 }

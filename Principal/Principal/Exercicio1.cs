@@ -19,9 +19,52 @@ namespace Principal
 
         private void cmbInicio_SelectedIndexChanged(object sender, EventArgs e)
         {
-            int numInicio, numFim;
+            if (cmbInicio.SelectedIndex != 0)
+            {
 
+                if (cmbInicio.SelectedIndex < cmbFim.SelectedIndex)
+                {
+                    for (int i = cmbInicio.SelectedIndex; i < cmbFim.SelectedIndex; i++)
+                    {
+                        lstNumeros.Items.Add(i.ToString());
+                    }
+                }
+                else
+                {
+                    if (cmbInicio.SelectedIndex > cmbFim.SelectedIndex)
+                    {
+                        for (int i = cmbInicio.SelectedIndex; i > cmbFim.SelectedIndex; i--)
+                        {
+                            lstNumeros.Items.Add(i.ToString());
+                        }
 
+                    }
+                }
+            }
+        }
+
+        private void cmbFim_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            
+                if (cmbInicio.SelectedIndex < cmbFim.SelectedIndex)
+                {
+                    for (int i = cmbInicio.SelectedIndex; i < cmbFim.SelectedIndex; i++)
+                    {
+                        lstNumeros.Items.Add(i.ToString());
+                    }
+                }
+                else
+                {
+                    if (cmbInicio.SelectedIndex > cmbFim.SelectedIndex)
+                    {
+                        for (int i = cmbInicio.SelectedIndex; i > cmbFim.SelectedIndex; i--)
+                        {
+                            lstNumeros.Items.Add(i.ToString());
+                        }
+
+                    }
+                }
+            
         }
     }
 }
